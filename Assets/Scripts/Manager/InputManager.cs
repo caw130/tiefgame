@@ -1,16 +1,23 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    Player _player;
+    void OnMove(InputValue value)
     {
-        
+        Debug.Log(value.Get<Vector2>());
+    }
+    void OnMouse(InputValue value)
+    {
+        Debug.Log(value.Get<Vector2>());
     }
 
-    // Update is called once per frame
-    void Update()
+    public void GetPlayer(Player player)
     {
-        
+        if (player.IsOwner)
+        {
+            _player = player;
+        }
     }
 }

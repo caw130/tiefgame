@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 96056933
+  GlobalObjectIdHash: 862324781
   InScenePlacedSourceGlobalObjectIdHash: 862324781
   DeferredDespawnTick: 0
   Ownership: 1
@@ -75,7 +75,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  _nObj: {fileID: 8011042641836831303}
 --- !u!65 &5306391819770933539
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -110,6 +109,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
+  _nObj: {fileID: 8011042641836831303}
+  _move: {fileID: 3406314158726732690}
+  _head: {fileID: 7995635506643170902}
 --- !u!1 &5836443156650224600
 GameObject:
   m_ObjectHideFlags: 0

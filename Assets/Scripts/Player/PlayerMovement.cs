@@ -1,17 +1,9 @@
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : NetworkBehaviour
 {
-    [SerializeField] NetworkObject _nObj;
-    void Start()
-    {
-        Debug.Log(_nObj.OwnerClientId);
-    }
+    
 
-    // Update is called once per frame
-    public void Move()
-    {
-
-    }
 }
